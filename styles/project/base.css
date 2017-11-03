@@ -1,0 +1,15 @@
+body, input, button, textarea, h1, h2, h3, h4, h5, h6{
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background: #dddddd;
+}
+
+.todos-main-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    min-width: 300px;
+    max-width: 600px;
+}
