@@ -10,62 +10,58 @@
         <h1 class="todo-title">Todos</h1>
     </div>
     <div class="todos-main">
-        <div class="todo-input" aria-label="Добавление задачи">
+        <div class="todo-input">
+            <button class="todo-input_set-completed" aria-label="Отметить все как выполненные"></button>
             <div class="todo-input_text-container">
                 <input class="todo-input_text" type="text" placeholder="What needs to be done?" name="new_todo">
             </div>  
-            <button class="todo-input_set-completed" aria-label="Отметить все как выполненные">
-                <img alt="V">
-            </button>
         </div>
-        <div class="todos" aria-label="Список задач">
-            <div class="todo-item" aria-label="Задача">
-                <input class="todo-item_checkbox" type="checkbox" aria-label="Отметить как выполненную"/>
+        <div class="todos">
+            <div class="todo-item">
+                <input class="todo-item_ready-mark" checked="checked" type="checkbox" aria-label="Отметить как выполненную"/>
                 <textarea class="todo-item_text">HTML</textarea>
                 <button class="todo-item_delete" aria-label="Удалить todo">
-                    <img alt="X">
                 </button>
             </div>
-            <div class="todo-item" aria-label="Задача">
-                <input class="todo-item_checkbox" type="checkbox" aria-label="Отметить как выполненную"/>
+            <div class="todo-item">
+                <input class="todo-item_ready-mark" checked="checked" type="checkbox" aria-label="Отметить как выполненную"/>
                 <textarea class="todo-item_text">CSS</textarea>
                 <button class="todo-item_delete" aria-label="Удалить todo">
-                    <img alt="X">
                 </button>
             </div>
-            <div class="todo-item" aria-label="Задача">
-                <input class="todo-item_checkbox" type="checkbox" aria-label="Отметить как выполненную"/>
+            <div class="todo-item">
+                <input class="todo-item_ready-mark" checked="checked" type="checkbox" aria-label="Отметить как выполненную"/>
                 <textarea class="todo-item_text">JS</textarea>
                 <button class="todo-item_delete" aria-label="Удалить todo">
-                    <img alt="X">
                 </button>
             </div>
-            <div class="todo-item" aria-label="Задача">
-                <input class="todo-item_checkbox" type="checkbox" aria-label="Отметить как выполненную"/>
+            <div class="todo-item">
+                <input class="todo-item_ready-mark" checked="checked" type="checkbox" aria-label="Отметить как выполненную"/>
                 <textarea class="todo-item_text">JStools</textarea>
                 <button class="todo-item_delete" aria-label="Удалить todo">
-                    <img alt="X">
                 </button>
             </div>
         </div>
-        <div class="action-bar" aria-label="Список действий">
-            <div class="items-left" aria-label="Количество не выполненых todo">
+        <div class="todos-action-bar">
+            <div class="todos-items-left" aria-label="Количество не выполненых todo">
                 n items left
             </div>
-            <div class="filters" aria-label="Фильтры">
-                <button class="filter-button" data-filter="all" aria-label="Показать все">
+            <div class="todos-filters">
+                <button class="todos-filter-button __active" data-filter="all" aria-label="Показать все">
                     All
                 </button>
-                <button class="filter-button" data-filter="notcompleted" aria-label="Показать невыполненные">
+                <button class="todos-filter-button" data-filter="notcompleted" aria-label="Показать невыполненные">
                     Active
                 </button>
-                <button class="filter-button" data-filter="completed" aria-label="Показать выполненные">
+                <button class="todos-filter-button __active" data-filter="completed" aria-label="Показать выполненные">
                     Completed
                 </button>
             </div>
-            <button class="clear-completed-button" aria-label="Удалить выполненные">
-                Clear completed
-            </button>
+            <div class="todos-clear-completed">
+                <button class="todos-clear-completed-button" aria-label="Удалить выполненные">
+                    Clear completed
+                </button>
+            </div>
         </div>
     </div>
 </div>
