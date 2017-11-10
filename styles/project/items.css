@@ -14,7 +14,7 @@
     border-bottom: 1px solid #e6e6e6;
 }
 
-.todo-item_checkbox{
+.todo-item_ready-mark{
     background: #ffffff;
     margin: 18px;
     width: 36px;
@@ -27,12 +27,12 @@
     border: 1px solid #e6e6e6;
 }
 
-.todo-item_checkbox:checked{
+.todo-item_ready-mark:checked{
     position: absolute;
-    background-position: center;
     cursor: pointer;
     border: 1px solid #e6e6e6;
     background: url('../../images/completed.png') no-repeat;
+    background-position: center;
 }
 
 .todo-item_text{
@@ -71,7 +71,7 @@
      background: url('../../images/close.png') no-repeat;
 }
 
- .todo-item_checkbox:checked .todo-item_text{
+ .todo-item_ready-mark:checked .todo-item_text{
      text-decoration: line-through;
  }
 

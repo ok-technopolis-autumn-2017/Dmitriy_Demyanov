@@ -2,21 +2,21 @@
 
 }
    
-    .action-bar{
+    .todos-action-bar{
         margin: 1%;
     }
 
-    .items-left{
+    .todos-items-left{
         margin: 16px 0 0 12px;
         float: left;
         color: #888888;
     }
 
-    .filters{
+    .todos-filters{
         text-align: center;
     }
 
-    .filter-button{
+    .todos-filter-button{
         float: center;
         //display: pre;
         margin-left: auto;
@@ -34,7 +34,7 @@
         -webkit-appearance: none;
     }
 
-        .clear-completed{
+        .todos-clear-completed{
             position: relative;
             float: right;
             bottom: 20px;	
@@ -45,7 +45,7 @@
             height: auto;
         }
 
-        .clear-completed-button{
+        .todos-clear-completed-button{
             border: none;
             -webkit-animation: none;
             -webkit-appearance: none;
