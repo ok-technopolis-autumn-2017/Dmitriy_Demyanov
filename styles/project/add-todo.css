@@ -1,10 +1,10 @@
 .todo-input {
     border-bottom: 1px solid #e6e6e6;
+	height: 50px;
 }
 
 .todo-input:after {
     display: inline;
-    margin: 2%;
 }
 
 .todo-input_set-completed {
@@ -16,11 +16,19 @@
     cursor: pointer;
     width: 25px;
     height: 25px;
+	float: left;
+}
+
+.todo-input_set-completed_button {
+	
+}
+	
+.todo-input_set-completed_visual {
+	
 }
 
 .todo-input_text {
-
-    width: 80%;
+    box-sizing: border-box;
     border: 0;
     outline: none;
     background: none;
@@ -32,7 +40,6 @@
     font-weight: 200;
     line-height: 25px;
     margin: 10px 25px;
-    position: absolute;
     top: 0%;
 }
 .todo-input_text::placeholder {

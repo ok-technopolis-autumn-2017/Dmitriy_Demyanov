@@ -1,11 +1,3 @@
-.items-left{
-
-}
-   
-    .todos-action-bar{
-        margin: 1%;
-    }
-
     .todos-items-left{
         margin: 16px 0 0 12px;
         float: left;
@@ -18,39 +10,27 @@
 
     .todos-filter-button{
         float: center;
-        //display: pre;
-        margin-left: auto;
-        width: auto;
-        height: auto;
         border: none;
         color: #888888;
         position: relative;
         margin: 16px auto 0 0;
-        background: none;s
+        background: none;
         cursor: pointer;
         border: none;
         padding: 3px;
-        -webkit-animation: none;
-        -webkit-appearance: none;
     }
 
         .todos-clear-completed{
             position: relative;
             float: right;
-            bottom: 20px;	
-            margin: 0 0 0 1px;
+            bottom: 20px;
+			margin: 16px auto 0 0;
             padding: 0;
             background: none;
-            width: auto;
-            height: auto;
         }
 
         .todos-clear-completed-button{
-            border: none;
-            -webkit-animation: none;
-            -webkit-appearance: none;
-            background: none;
-            width: auto;
-            height: auto;
+            border: none;;
+            background: none
             color: #888888;
         }
