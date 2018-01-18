@@ -1,0 +1,17 @@
+@import "../config/globals";
+
+body, input, button, textarea, h1, h2, h3, h4, h5, h6{
+    font-family: $todos-font-family-main;
+    font-size: $fs_small;
+}
+
+body {
+    background: $c-main-bg;
+}
+
+.todos-main-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    min-width: $todo-main-wrapper-max-width;
+    max-width: $todo-main-wrapper-min-width;
+}

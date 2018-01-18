@@ -1,0 +1,50 @@
+@import "../config/globals";
+
+.todo-input {
+    border-bottom: 1px solid $c-common-border;
+	height: 50px;
+}
+
+.todo-input:after {
+    display: inline;
+}
+
+.todo-input_set-completed {
+    background: url('../../images/select-all.png') no-repeat 0 0;
+    background-position: center;
+    border: 0;	
+    margin: 10px;
+    padding: 0;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+	float: left;
+}
+
+.todo-input_set-completed_button {
+	
+}
+	
+.todo-input_set-completed_visual {
+	
+}
+
+.todo-input_text {
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    background: none;
+    font-size: $fs_normal;
+    box-sizing: border-box;
+    padding-right: 12px;
+    color: $c-todo-item_text;
+    left: 5%;
+    font-weight: $fw_large;;
+    line-height: $lh_normal;
+    margin: 10px 25px;
+    top: 0%;
+}
+.todo-input_text::placeholder {
+    color: $c-gray-light;
+    font-style: italic;
+}
