@@ -1,0 +1,36 @@
+{
+  "name": "dmitriy_demyanov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ok-technopolis-autumn-2017/Dmitriy_Demyanov.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ok-technopolis-autumn-2017/Dmitriy_Demyanov/issues"
+  },
+  "homepage": "https://github.com/ok-technopolis-autumn-2017/Dmitriy_Demyanov#readme",
+  "devDependencies": {
+    "connect": "^3.6.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-myth": "^1.1.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.4.0",
+    "gulp-css-rebase-urls": "0.0.5",
+    "gulp-sass": "^3.1.0"
+  }
+}

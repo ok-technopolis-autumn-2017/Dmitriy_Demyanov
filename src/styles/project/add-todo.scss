@@ -1,5 +1,7 @@
+@import "../config/globals";
+
 .todo-input {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid $c-common-border;
 	height: 50px;
 }
 
@@ -32,17 +34,17 @@
     border: 0;
     outline: none;
     background: none;
-    font-size: 24px;
+    font-size: $fs_normal;
     box-sizing: border-box;
     padding-right: 12px;
-    color: #789;
+    color: $c-todo-item_text;
     left: 5%;
-    font-weight: 200;
-    line-height: 25px;
+    font-weight: $fw_large;;
+    line-height: $lh_normal;
     margin: 10px 25px;
     top: 0%;
 }
 .todo-input_text::placeholder {
-    color: #ddd;
+    color: $c-gray-light;
     font-style: italic;
 }
